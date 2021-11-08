@@ -2,7 +2,7 @@ use std::process::Command;
 use std::io::Write;
 
 fn main() {
-	for i in 0..100 {
+	for i in 0..10000 {
 		let mut file = std::fs::OpenOptions::new()
 			.write(true)
 			.append(true)
