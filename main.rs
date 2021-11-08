@@ -9,7 +9,7 @@ fn main() {
 			.open("test.txt")
 			.unwrap();
 
-		write!(file, "idk");
+		write!(file, "idk\n");
 
 		Command::new("sh")
 			.args(["-c", "git add ."])
