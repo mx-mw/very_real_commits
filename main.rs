@@ -6,5 +6,5 @@ fn main() {
 		.output()
 		.expect("failed to commit :sadge:");
 	
-	println!("{:?}", output.stdout);
+	println!("{}", str::from_utf8(output.stdout));
 }
